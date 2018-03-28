@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Ahoy matey!</title>
+</head>
+<body>
+
+	<div class="main">
+
+		<h1>Ahoy!</h1>
+
+		<h3 class="subheader">Try the Pirate Name Generator!</h3>
+
+		<p>First, pick the number of names you'd like to generate.</p>
+
+		<p class="sidenote">Please, pick a number between 1 and 10. Unfortunately our capt'n spent all our gold gambling and we can't afford more than 10 names.</p>
+
+		<input type="text" placeholder="1-10" class="nameNum">
+
+		<h3 class="generate-away">Now generate away!</h3>
+
+		<button type="button" class="generateButton" onclick="generate();">Generate Name!</button>
+
+		<p><span class="nameList"></span></p>
+
+		<button type="button" onclick="restart();" class="restart">Restart</button>
+
+
+
+
+	</div> <!-- closes .main -->
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
